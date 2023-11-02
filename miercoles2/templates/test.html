@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <h1>¡Bienvenido a nuestro sitio web!</h1>
+        <h2>¡Esto es una pagina de pruebas!</h2>
+        <b>Tu parametro pasado por url es:</b> {{ variable }}
+        <h1>TU NOMBRE ES {{variable}}</h1>
+        {% if variable == 'Facundo' %}
+            <h1>¡Hola {{variable}}!</h1>
+        {% else %}
+            <h1>¡Hola desconocido!</h1>
+        {% endif %}
+    </body>
+</html>
